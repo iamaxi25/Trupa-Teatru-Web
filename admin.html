@@ -23,26 +23,29 @@
     </div>
 
     <!-- Informatii -->
-    <div class="container">
-      <div class="informatii">
-        <h2>Informatii Generale</h2>
-        <p>
-          Cu o istorie de peste 15 ani, Trupa de Teatru AS este una dintre cele
-          mai notabile trupe de teatru de liceu din București și una dintre
-          activitățile extrașcolare cu cea mai lungă vechime din Lazăr (după
-          Revista LZR, desigur). În același timp, Trupa AS este locul unde peste
-          40 de elevi și-au găsit o a doua familie.
-        </p>
-        <p>
-          Anul acesta am putut, din păcate, să vedem trupa doar pe ecrane și
-          doar pentru un timp limitat. Nu știu dacă vorbesc acum în numele
-          tuturor, dar eu, cel puțin, am simțit lipsa freamătului general și a
-          cozilor din fața Sălii de Festivități atunci când trupa avea
-          spectacol.
-        </p>
-      </div>
-      <div class="afis">
-        <img src="imagini/afis.jpg" />
+    <div class="container-admin">
+      <!-- Formular de autentificare -->
+      <div id="login-modal">
+        <form id="login-form">
+          <div class="admin">
+            <h2>Autentificare administrator</h2>
+            <label for="username"><b>Utilizator</b></label>
+            <input
+              type="text"
+              placeholder="Introdu utilizator"
+              name="username"
+              required
+            />
+            <label for="password"><b>Parola</b></label>
+            <input
+              type="password"
+              placeholder="Introdu parola"
+              name="password"
+              required
+            />
+            <button type="submit">Autentificare</button>
+          </div>
+        </form>
       </div>
     </div>
     <div class="footer">
