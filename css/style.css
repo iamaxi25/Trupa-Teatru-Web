@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #81482a;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+/* Links */
+.link-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #f5e3be;
+  background-color: #270e0e;
+  padding: 12px 20px;
+}
+
+.link-bar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.link-bar a {
+  color: #f5e3be;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* Container */
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.informatii {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+  padding: 20px 20px;
+  background-color: #cc724231;
+  border-radius: 50px;
+  color: #f5e3be;
+}
+
+.informatii-echipa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  max-height: 100%;
+  padding: 20px 20px;
+  background-color: #cc724231;
+  border-radius: 50px;
+  color: #f5e3be;
+  font-size: 18px;
+}
+
+.informatii-echipa span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.informatii-repertoriu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  max-height: 100%;
+  padding: 20px 20px;
+  background-color: #cc724231;
+  border-radius: 50px;
+  color: #f5e3be;
+  font-size: 20px;
+}
+
+.afis img {
+  min-width: 400px;
+  max-height: 600px;
+  padding: 5px 5px;
+  background-color: #4e2222;
+  border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #f5e3be;
+  margin-top: auto;
+  background-color: #270e0e;
+}
